@@ -1,0 +1,7 @@
+[filechooser]
+cmd=/home/diego/.config/xdg-desktop-portal-termfilechooser/yazi-wrapper.sh
+default_dir=$HOME
+env=TERMCMD='kitty -T "terminal filechooser"'
+open_mode = suggested
+save_mode = lastazi --chooser-file="$out"
+fi
