@@ -17,7 +17,7 @@ return {
                     "yaml",
                     "markdown",
                     "markdown_inline",
-		    "python",
+		    		"python",
                 },
 
                 auto_install = true,

@@ -1,0 +1,36 @@
+binds {
+    // Capturas de pantalla (Noctalia)
+   Alt+Print hotkey-overlay-title="Screenshot: Window" { spawn "noctalia" "msg" "screenshot-window"; }
+    Alt+Space hotkey-overlay-title="Window Switcher" { spawn "noctalia" "msg" "window-switcher"; }
+    Alt+X hotkey-overlay-title="Power Menu: Toggle" { spawn "noctalia" "msg" "panel-toggle" "session"; }
+    Alt+XF86Launch1 hotkey-overlay-title="Screenshot: Window" { spawn "noctalia" "msg" "screenshot-window"; }
+    Ctrl+Print hotkey-overlay-title="Screenshot: Full Screen" { spawn "noctalia" "msg" "screenshot-fullscreen"; }
+    Ctrl+XF86AudioLowerVolume allow-when-locked=true { spawn "noctalia" "msg" "media" "volume-down" "3"; }
+    Ctrl+XF86AudioRaiseVolume allow-when-locked=true { spawn "noctalia" "msg" "media" "volume-up" "3"; }
+    Ctrl+XF86Launch1 hotkey-overlay-title="Screenshot: Full Screen" { spawn "noctalia" "msg" "screenshot-fullscreen"; }
+    Mod+A hotkey-overlay-title="Control Center" { spawn "noctalia" "msg" "panel-toggle" "control-center"; }
+    Mod+Alt+I hotkey-overlay-title="Idle Inhibit" { spawn "noctalia" "msg" "caffeine-toggle"; }
+    Mod+Alt+L hotkey-overlay-title="Lock Screen" { spawn "noctalia" "msg" "session" "lock"; }
+    Mod+Alt+N hotkey-overlay-title="Night Mode" { spawn "noctalia" "msg" "nightlight-toggle"; }
+    Mod+Comma hotkey-overlay-title="Settings" { spawn "noctalia" "msg" "settings-toggle"; }
+    Mod+Ctrl+N hotkey-overlay-title="Notification Center" { spawn "noctalia" "msg" "panel-toggle" "notifications"; }
+    Mod+D hotkey-overlay-title="Dash" { spawn "noctalia" "msg" "panel-toggle" "dashboard"; }
+    Mod+Shift+S hotkey-overlay-title="Screenshot: Region" { spawn "noctalia" "msg" "screenshot-region"; }
+    Mod+Space hotkey-overlay-title="Application Launcher" { spawn "noctalia" "msg" "panel-toggle" "launcher"; }
+    Mod+V hotkey-overlay-title="Clipboard Manager" { spawn "noctalia" "msg" "panel-toggle" "clipboard"; }
+    Mod+Y hotkey-overlay-title="Browse Wallpapers" { spawn "noctalia" "msg" "panel-toggle" "wallpaper"; }
+	Mod+N hotkey-overlay-title="Notepad" { spawn "noctalia" "msg" "panel-toggle" "noctalia/notes:panel";}
+    XF86AudioLowerVolume allow-when-locked=true { spawn "noctalia" "msg" "volume-down" "3"; }
+    XF86AudioMicMute allow-when-locked=true { spawn "noctalia" "msg" "mic-mute"; }
+    XF86AudioMute allow-when-locked=true { spawn "noctalia" "msg" "volume-mute"; }
+    XF86AudioNext allow-when-locked=true { spawn "noctalia" "msg" "media" "next"; }
+    XF86AudioPause allow-when-locked=true { spawn "noctalia" "msg" "media" "pause"; }
+    XF86AudioPlay allow-when-locked=true { spawn "noctalia" "msg" "media" "toggle"; }
+    XF86AudioPrev allow-when-locked=true { spawn "noctalia" "msg" "media" "previous"; }
+    XF86AudioRaiseVolume allow-when-locked=true { spawn "noctalia" "msg" "volume-up" "3"; }
+    XF86Launch1 hotkey-overlay-title="Screenshot: Region" { spawn "noctalia" "msg" "screenshot-region"; }
+    XF86MonBrightnessDown allow-when-locked=true { spawn "noctalia" "msg" "brightness-down"; }
+    XF86MonBrightnessUp allow-when-locked=true { spawn "noctalia" "msg" "brightness-up"; }
+    XF86TouchpadOff allow-when-locked=true repeat=false { spawn "noctalia" "msg" "osd-show" "input-touchpad-off" "Touchpad Off"; }
+    XF86TouchpadOn repeat=false allow-when-locked=true { spawn "noctalia" "msg" "osd-show" "input-touchpad-on" "Touchpad On"; }
+}
